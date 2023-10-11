@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="JavaScript.js"></script>
+    <title>Área triángulo</title>
+</head>
+
+<body>
+    <label for="figura">Selecciona una figura:</label>
+    <select id="figura">
+        <option value="Triangulo">Triangulo</option>
+        <option value="Cuadrado">Cuadrado</option>
+        <option value="Rectangulo">Rectangulo</option>
+    </select>
+
+    <h3>Área</h3>
+    <label for="base">Base</label>
+    <input type="number" id="base" placeholder="Lada 1">
+
+    <label for="altura">Altura</label>
+    <input type="number" id="altura" placeholder="Lado 2">
+
+    <button onclick="obtenerArea()">Calcular área</button>
+    <button onclick="limpiar()">Limpiar</button>
+    <p id="Resultado"></p>
+</body>
+
+</html>
